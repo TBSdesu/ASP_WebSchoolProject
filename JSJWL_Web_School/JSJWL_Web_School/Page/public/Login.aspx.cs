@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace JSJWL_Web_School
 {
-    public partial class Contact : Page
+    public partial class Login : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CreateUserWizard1_CreatedUser(object sender, EventArgs e)
         {
 
         }
